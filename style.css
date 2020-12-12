@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+        .bgimg{
+            width: 100%;
+            height: 100vh;
+            background-image: url("rain.jpg");
+            
+            background-size: 100% 100%;
+        }
+
+        .rain{
+            height: 100vh;
+            background-image: url("rai.png");
+            animation: effect .3s linear infinite;
+            
+            
+        }
+        
+        @keyframes effect{
+          from    {
+              background-position: 0% 0%;
+         }
+          to{
+              background-position: 30% 100%;
+            }
+          
+       
+        }
