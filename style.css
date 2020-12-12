@@ -14,7 +14,9 @@
             height: 100vh;
             background-image: url("rai.png");
             animation: effect .3s linear infinite;
+            animation-delay: 2s;
             
+
             
         }
         
